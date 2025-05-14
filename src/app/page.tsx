@@ -1,6 +1,6 @@
 'use client'
 import {useEffect, useState} from "react";
-import {FetchDevQuoteManager} from "@/utils/fetchDevQuote";
+import {FetchDevQuoteManager} from "@/lib/fetchDevQuoteManager";
 import {QuoteBox} from "@/components/QuoteBox";
 
 export default function Home() {
