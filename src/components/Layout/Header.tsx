@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header className={'mb-4'}>
             <Link href="/">
-                <Image src={logo} alt={'W&S Logo'}/>
+                <Image src={logo} alt={'W&S Logo'} priority={true} />
             </Link>
         </header>
     );
