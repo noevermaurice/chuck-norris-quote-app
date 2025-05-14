@@ -5,7 +5,7 @@ type IQuoteBoxProps = {
 const QuoteBox = ({ quote, isLoading = false }: IQuoteBoxProps) => {
     return (
         <div
-            className={`p-4 mb-4 border-2 ${isLoading
+            className={`p-5 mb-5 border-2 ${isLoading
                 ? 'animate-pulse bg-gray-200 border-transparent'
                 : 'border-black'}`}
         >
